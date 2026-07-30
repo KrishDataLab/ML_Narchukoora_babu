@@ -25,6 +25,18 @@ age_power = 20**2
 print(f"age_in_months:{age_in_months} | age_in_days:{age_in_days} | Remainder:{Remainder} | age_power:{age_power}")
 
 
+#Task 4
+x = 100
+y = 300
+
+temp = x
+x = y
+y = temp
+
+print(x,y)
+
+
+
 
 #Assignment: Python Functions and Lists You are building a simple marks analysis utility.Complete the following tasks in order. 
 Task 1. Write a function calculate_total(marks) that accepts a list of marks and returns their sum. 
@@ -59,7 +71,10 @@ def display_report(marks):
     grade = get_grade(average)
     
     print(f"Total: {total}")
-    print(f"Average: {average:.2f}")
+    print(f"Average: {average:.2f}"
+
+
+
     print(f"Grade: {grade}")
 
 # Test the solution
